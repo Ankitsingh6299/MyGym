@@ -27,7 +27,7 @@ function Plans() {
                         
                     ))}
                 </div>
-                <div><span>See more benefits -> </span></div>
+                <div><span>See more benefits -&gt; </span></div>
         <button className='btn'>Join Now</button>
                 </div>
                 
