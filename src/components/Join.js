@@ -16,7 +16,9 @@ function Join() {
   return (
     <div className='Join' id='join-us'>
       <div className='left-j'>
+       
         <hr />
+        <div className='spare'></div>
           <div>
             <span className='stroke-text'>READY TO</span>
             <span> LEVEL UP</span>

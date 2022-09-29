@@ -13,7 +13,26 @@
     display: flex;
     gap: 2rem;
 }
-.header-menu>li:hover{
+.header-menu>li>a{
+    text-decoration: none;
+    color: white;
+    
+}
+.header-menu>li>a:hover{
     color: var(--orange);
     cursor: pointer;
+}
+@media screen and (max-width:768px){
+.header>:nth-child(2)
+{
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+}
+.header-menu{
+    flex-direction: column;
+    background:var(--appColor);
+
+    padding: 2rem;
+}
 }

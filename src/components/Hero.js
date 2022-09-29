@@ -8,14 +8,15 @@ import Heart from "../assets/heart.png";
 import Calories from "../assets/calories.png";
 function Hero() {
   const transition={type:'spring',duration:3}
+  const mobile = window.innerWidth<=768?true:false;
   return (
-    <div className='hero'>
+    <div className='hero' id='Hero-show'>
       <div className='blur hero-blur'></div>
         <div className='left-h'>
             <Header />
         <div className='the-best-ad'>
             <motion.div
-            initial={{left:'290px'}}
+            initial={{left:mobile ? '188px' : '290px' }}
             whileInView={{left:'9px'}}
             transition={{...transition,type:'tween'}}
             >

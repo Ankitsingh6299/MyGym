@@ -10,7 +10,7 @@ function Testimonials() {
     const[selected,setSelected] = useState(0);
     const tlength = testimonialsData.length;
   return (
-    <div className='Testimonials'>
+    <div className='Testimonials' id='test'>
         <div className='left-t'>
             <span>Testimonials</span>
             <span className='stroke-text'>What they</span>
