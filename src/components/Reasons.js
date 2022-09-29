@@ -41,7 +41,7 @@ function Reasons() {
             <span>RELATABLE PARTNERS</span>
            </div>
         </div><br></br>
-        <span>OUR PARTNERS</span>
+        <span className='ours'>OUR PARTNERS</span>
         <div className='partners'>
           <img src={nb} alt="" />
           <img src={adidas} alt="" />

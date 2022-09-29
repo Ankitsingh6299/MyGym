@@ -96,4 +96,10 @@
     .left-r>:nth-child(4){
         display: none;
     }
+    .partners{
+        margin-left: 5rem;
+    }
+    .ours{
+        margin-left: 6rem;
+    }
 }
