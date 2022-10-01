@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css';
 import Bars from '../assets/bars.png';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/mygym.jpg';
 function Header() {
   const mobile = window.innerWidth<=768?true:false;
   const [menuOpened,setMenuOpened] = useState(false)
